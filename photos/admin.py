@@ -1,7 +1,7 @@
 from django.contrib import admin
-from . import models
+from .models import Image, Location
 
-admin.site.register(models.Image)
-admin.site.register(models.Location)
+admin.site.register(Image)
+admin.site.register(Location)
 
 # Register your models here.
