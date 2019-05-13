@@ -15,4 +15,11 @@ class Location(models.Model):
     image_location = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.image_location
+        return self.
+
+class Category(models.Model):
+    image = models.ForeignKey(Image, on_delete=models.CASCADE)
+    image_category = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.image_category
