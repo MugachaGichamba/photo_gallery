@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa54948b-2fd1-481e-8e22-47018be1f535" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/location.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/photos/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="17" selection-start-line="17" selection-end-line="26" />
+            <state relative-caret-position="150">
+              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
                 <marker date="1557823092324" expanded="true" signature="447:517" ph="..." />
@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/location.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="22" />
+            <state>
+              <caret selection-start-column="2" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -126,8 +126,8 @@
         <option value="$PROJECT_DIR$/templates/photos/home.html" />
         <option value="$PROJECT_DIR$/galleria/urls.py" />
         <option value="$PROJECT_DIR$/templates/photos/location.html" />
-        <option value="$PROJECT_DIR$/templates/location.html" />
         <option value="$PROJECT_DIR$/photos/views.py" />
+        <option value="$PROJECT_DIR$/templates/location.html" />
       </list>
     </option>
   </component>
@@ -266,12 +266,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557749229985</updated>
       <workItem from="1557749249612" duration="12345000" />
-      <workItem from="1557814054282" duration="6386000" />
+      <workItem from="1557814054282" duration="6413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18731000" />
+    <option name="totallyTimeSpent" value="18758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -361,13 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/location.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photos/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -384,12 +377,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/photos/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="17" selection-start-line="17" selection-end-line="26" />
+        <state relative-caret-position="150">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
             <marker date="1557823092324" expanded="true" signature="447:517" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/location.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-column="2" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
