@@ -68,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -77,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/location.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="270">
+              <caret line="18" column="70" lean-forward="true" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -86,12 +86,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/photos/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="180">
+              <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
               <folding>
                 <element signature="e#280#301#0#HTML" expanded="true" />
-                <element signature="e#1181#1207#0#HTML" expanded="true" />
+                <element signature="e#1181#1205#0#HTML" expanded="true" />
                 <element signature="e#1424#1461#0#HTML" expanded="true" />
+                <element signature="e#1561#1584#0#HTML" expanded="true" />
+                <element signature="e#1665#1688#0#HTML" expanded="true" />
+                <element signature="e#1763#1786#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -277,7 +280,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557749229985</updated>
       <workItem from="1557749249612" duration="12345000" />
-      <workItem from="1557814054282" duration="19255000" />
+      <workItem from="1557814054282" duration="20055000" />
     </task>
     <task id="LOCAL-00001" summary="got location foreign key id">
       <created>1557824740660</created>
@@ -321,11 +324,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557840666093</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="displayed image name and image in modal dialog">
+      <created>1557840987326</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557840987326</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added description to modal dialog">
+      <created>1557841344959</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557841344959</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31600000" />
+    <option name="totallyTimeSpent" value="32400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -364,7 +381,9 @@
     <MESSAGE value="searching functionality done" />
     <MESSAGE value="copy image url functionality done" />
     <MESSAGE value="started modal functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="started modal functionality" />
+    <MESSAGE value="displayed image name and image in modal dialog" />
+    <MESSAGE value="added description to modal dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="added description to modal dialog" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -405,9 +424,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/photos/admin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -451,26 +467,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/location.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="18" column="70" lean-forward="true" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/photos/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="180">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/photos/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="180">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding>
             <element signature="e#280#301#0#HTML" expanded="true" />
-            <element signature="e#1181#1207#0#HTML" expanded="true" />
+            <element signature="e#1181#1205#0#HTML" expanded="true" />
             <element signature="e#1424#1461#0#HTML" expanded="true" />
+            <element signature="e#1561#1584#0#HTML" expanded="true" />
+            <element signature="e#1665#1688#0#HTML" expanded="true" />
+            <element signature="e#1763#1786#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
