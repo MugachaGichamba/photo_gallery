@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Image, Location
+from .models import Image, Location, Category
 from django.views.generic import ListView, DetailView
 
 
@@ -22,9 +22,9 @@ def GetLocation(request):
     # context = {"images" : Image.objects.filter(image_location=data)}
     # for image in Image.objects.filter():
     #     print(image.image_location.id)
-    shits  = Location.objects.filter(image_location=data).first()
-    print(shits.id)
-    return render(request, 'location.html')
+    locale  = Location.objects.filter(image_location=data).first()
+    images = Image.objects.filter(image_location=locale)
+    return render(request, 'location.html', {"images" : images})
 
 #
 # class CategoryView(DetailView):
