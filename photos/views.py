@@ -16,14 +16,15 @@ class PicListView(ListView):
     context_object_name = "images"
 
 
-def Location(request):
+def GetLocation(request):
     data = request.GET["Location"]
 
     # context = {"images" : Image.objects.filter(image_location=data)}
-    for image in Image.objects.filter():
-        print(image.image_category)
-
-    return render(request, 'location.html', {'data':data})
+    # for image in Image.objects.filter():
+    #     print(image.image_location.id)
+    shits  = Location.objects.filter(image_location=data).first()
+    print(shits.id)
+    return render(request, 'location.html')
 
 #
 # class CategoryView(DetailView):
