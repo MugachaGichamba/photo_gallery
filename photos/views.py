@@ -22,8 +22,15 @@ def GetLocation(request):
     # context = {"images" : Image.objects.filter(image_location=data)}
     # for image in Image.objects.filter():
     #     print(image.image_location.id)
+    images = {}
     locale  = Location.objects.filter(image_location=data).first()
-    images = Image.objects.filter(image_location=locale)
+    categ = Category.objects.filter(image_category=data).first()
+    if locale:
+        images = Image.objects.filter(image_location=locale)
+    elif categ:
+        images = Image.objects.filter(image_category=categ)
+    else:
+        images = "No images at this time"
     return render(request, 'location.html', {"images" : images})
 
 #
