@@ -24,7 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls, name='admin'),
     path('', PicListView.as_view(), name='gallery-home'),
     # path('category/<string:category>/', CategoryView.as_view(), name='image_detail'),
-    path('location/', GetLocation, name="get_location"),
+    path('search/', GetLocation, name="get_search"),
 ]
 
 if settings.DEBUG:

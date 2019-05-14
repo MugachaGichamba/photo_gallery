@@ -17,7 +17,7 @@ class PicListView(ListView):
 
 
 def GetLocation(request):
-    data = request.GET["Location"]
+    data = request.GET["search_query"]
 
     # context = {"images" : Image.objects.filter(image_location=data)}
     # for image in Image.objects.filter():
@@ -31,7 +31,7 @@ def GetLocation(request):
         images = Image.objects.filter(image_category=categ)
     else:
         images = {}
-    return render(request, 'location.html', {"images" : images})
+    return render(request, 'search.html', {"images" : images})
 
 #
 # class CategoryView(DetailView):
