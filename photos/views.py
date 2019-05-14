@@ -30,7 +30,7 @@ def GetLocation(request):
     elif categ:
         images = Image.objects.filter(image_category=categ)
     else:
-        images = "No images at this time"
+        images = {}
     return render(request, 'location.html', {"images" : images})
 
 #
