@@ -1,11 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-    <div>
-        <form action="{% url 'get_location' %}">
-            <textarea name="Location" cols=30 rows=1 class="mt-4" placeholder="Enter location or category"></textarea>
-            <input class="mb-2 btn btn-success" type="submit" value="Search"/>
-        </form>
-    </div>
+
 
     <div class="row">
         {% for image in images %}
