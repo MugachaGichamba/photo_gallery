@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/galleria/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="255">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -159,17 +159,6 @@
               <item name="galleria" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="galleria" type="b2602c69:ProjectViewProjectNode" />
-              <item name="galleria" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="galleria" type="b2602c69:ProjectViewProjectNode" />
-              <item name="galleria" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="photos" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -244,7 +233,7 @@
       <updated>1557749229985</updated>
       <workItem from="1557749249612" duration="12345000" />
       <workItem from="1557814054282" duration="24586000" />
-      <workItem from="1557899823215" duration="5369000" />
+      <workItem from="1557899823215" duration="5807000" />
     </task>
     <task id="LOCAL-00001" summary="got location foreign key id">
       <created>1557824740660</created>
@@ -327,14 +316,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42300000" />
+    <option name="totallyTimeSpent" value="42738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="683" y="25" width="683" height="743" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.6138148" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.40345368" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32736155" />
@@ -483,8 +472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/galleria/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="255">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

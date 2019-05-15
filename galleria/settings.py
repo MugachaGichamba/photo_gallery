@@ -22,9 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '!t80#an0c4ff3l^c)=%0^tl_c0r#+m#k(-m2i6*)2+8e3t=!r8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mugachaphotogallery.herokuapp.com']
 
 # Application definition
 
